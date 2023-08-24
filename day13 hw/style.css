@@ -1,0 +1,87 @@
+
+
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+/* ******* */
+h1 {
+    color: #F7E987;
+    text-align: center;
+}
+
+/* ******* */
+h3{
+    color: #F7E987;
+    text-align: center; 
+}
+/* ******* */
+.container {
+
+}
+
+/* add borders to the table */
+table, th, td {
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+/* ******* */
+th{
+    background-color: #F8F0E5;
+}
+
+/* ******* */
+td{
+    background-color: #d9d5cf;
+}
+
+/* ******* */
+table{
+    background-color: #F7E987;
+    box-shadow: #5B9A8B 5px 5px, #427e70 10px 10px, #296053 15px 15px, #194a3f 20px 20px, #0c352b 25px 25px;
+    margin-right: 475px;
+    margin-bottom: 100px;
+}
+
+/* ******* */
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #0d0d0e;
+    background-color: #252B48;
+    color: #F7E987;
+}
+
+button:hover{
+    color: #F7E987;
+    background-color: #373c56;
+    transition: 0.3s;
+}
+
+#evaluatebox{
+    border:2px solid  #373c56;
+    padding: 10px ;
+    background-color: #373c56;
+}
+
+#submit{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #252B48;
+    color:#F7E987;
+    width: 100px;
+    height: 35px;
+}
+
+
+
+
+
+
+

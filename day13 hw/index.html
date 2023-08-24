@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body dir="rtl">
+    <!-- making a todo list  -->
+    <h1><b><i> To-Do List </i></b></h1>
+    <h3>بإستخدام HTML CSS JavaScript  </h3>
+    <br><br><br>
+     <!-- step 1 add an add button -->
+     <button id="addButton" style="margin-right: 667px;">إضافة مهمة</button>
+     <br><br>
+    <!-- step 2 create a table -->
+    <div id="container">
+        <table id="todo-list-table">
+            <tr>
+              <th>مهمة  </th>
+              <th>تم/ لم تتم  </th>
+              <th>وقت الانشاء  </th>
+              <th>اين تم التعديل؟  </th>
+              <th>حذف </th>
+            </tr>
+          </table>  
+    </div>
+
+    <!-- evaluate your work for today box -->
+    <h3>ما مدى رضاك عن انجازك لليوم ؟</h3>
+    <br><br>
+    <div id="evaluatebox">
+      <form style=" margin-right: 590px; color: antiquewhite;">
+        <input type="checkbox" name="evaluate" id="ok" >
+        <label for="ok">راضي</label><br>
+        <input type="checkbox" name="evaluate" id="middle">
+        <label for="middle">كان بإمكاني انجاز اكثر لكن سعيد بشكل عام</label><br>
+        <input type="checkbox" name="evaluate" id="notOk">
+        <label for="notOk">غير راضي</label><br><br>
+        <input type="submit" value="تسليم" id="submit" style="margin-right: 85px">
+      </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html> 
+
+
+
